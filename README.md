@@ -1,69 +1,102 @@
-# Welcome to your Lovable project
 
-## Project info
+# **🎤 AI-Powered Smart Conference Management System**  
 
-**URL**: https://lovable.dev/projects/a4fa06f2-7c05-411c-8084-9998159263ea
+## 🚀 **Overview**  
+In today's era of **advanced technology and AI**, most event management tasks are still handled **manually** and **separately**. After attending several **hackathons and conferences**, we observed inefficiencies in processes like **mic handling, attendee check-ins, feedback collection, and engagement tracking**.  
 
-## How can I edit this code?
+This project presents an **all-in-one AI-powered conference management solution** that automates and streamlines **event operations**, making the process **seamless, interactive, and efficient** for both **attendees and organizers**.  
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🔥 **Key Features**  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/a4fa06f2-7c05-411c-8084-9998159263ea) and start prompting.
+### **1️⃣ Admin & Organizer Panel**  
+✔️ **Create & Manage Events** (Event name, date, speakers, venue, seating capacity)  
+✔️ **Configure Mic Sharing & Live Streaming**  
+✔️ **Enable Gamification for Engagement** (Points for Q&A and polls)  
+✔️ **Manage Real-Time Complaints & Feedback**  
 
-Changes made via Lovable will be committed automatically to this repo.
+### **2️⃣ Attendee Panel**  
+✔️ **Digital Ticket Generation with QR Code**  
+✔️ **Real-Time Check-In & Check-Out** (Smart QR system updates seat availability)  
+✔️ **Live Audio Streaming for Clarity**  
+✔️ **Mic Sharing via Mobile App** (Request mic, queue management, no manual mic passing)  
+✔️ **Live Polls & Gamification for Engagement**  
+✔️ **Complaint & Feedback System**  
 
-**Use your preferred IDE**
+### **3️⃣ Post-Event Analytics**  
+✔️ **Session Ratings & Insights**  
+✔️ **Mic Usage Reports**  
+✔️ **Poll Participation Metrics**  
+✔️ **Attendee Engagement & Gamification Leaderboard**  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🛠 **Tech Stack**  
 
-Follow these steps:
+- **Frontend**: React.js, Tailwind CSS  
+- **Backend**: Node.js, Express.js  
+- **Database**: MongoDB  
+- **Authentication**: Firebase Auth  
+- **QR Code Generation**: qrcode.js  
+- **Live Streaming & Mic Sharing**: WebRTC  
+- **Real-Time Notifications**: Socket.io  
 
+---
+
+## 📌 **Installation & Setup**  
+
+### **1️⃣ Clone the Repository**  
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+git clone https://github.com/your-username/conference-management.git
+cd conference-management
 ```
 
-**Edit a file directly in GitHub**
+### **2️⃣ Install Dependencies**  
+```sh
+npm install
+```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### **3️⃣ Configure Environment Variables**  
+Create a `.env` file in the root directory and add:  
+```env
+MONGO_URI=your_mongodb_uri
+JWT_SECRET=your_secret_key
+FIREBASE_API_KEY=your_firebase_api_key
+```
 
-**Use GitHub Codespaces**
+### **4️⃣ Start the Server**  
+```sh
+npm start
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### **5️⃣ Start the Frontend**  
+```sh
+cd client
+npm start
+```
 
-## What technologies are used for this project?
+---
 
-This project is built with .
+## 🎯 **Future Scope**  
+While we couldn't implement these due to time constraints, future versions will include:  
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+✔️ **Smart Venue Navigation** – Interactive maps for finding halls, booths, and seats.  
+✔️ **Instant Speaker Notes & Slide Sharing** – Real-time distribution of session notes and presentations.  
+✔️ **Live AI-Powered Translation** – Multi-language support for international audiences.  
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/a4fa06f2-7c05-411c-8084-9998159263ea) and click on Share -> Publish.
+## 💡 **Conclusion**  
+This **AI-driven conference management system** revolutionizes event handling by automating key processes, improving engagement, and reducing manual efforts. With **smart mic sharing, live streaming, gamification, and analytics**, this platform ensures **a seamless, interactive, and future-ready conference experience**! 🚀🎤🔥  
 
-## I want to use a custom domain - is that possible?
+---
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+### **👥 Contributors**  
+- **Your Name** – [GitHub](https://github.com/your-username)  
+- **Team Member 2** – [GitHub](https://github.com/team-member2)  
+
+📩 **For any queries, feel free to reach out!**  
+
+---
+
+This README provides **clear documentation**, making it easy for others to understand, install, and use the project. Let me know if you need any changes! 🚀
