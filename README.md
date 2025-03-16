@@ -92,8 +92,8 @@ This **AI-driven conference management system** revolutionizes event handling by
 ---
 
 ### **👥 Contributors**  
-- **Your Name** – [GitHub](https://github.com/your-username)  
-- **Team Member 2** – [GitHub](https://github.com/team-member2)  
+- **Your Name** – Yaswanth Reddy  
+- **Team Member 2** – M.S Akhila
 
 📩 **For any queries, feel free to reach out!**  
 
